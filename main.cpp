@@ -21,15 +21,15 @@ int main(){
 
     int opcion = 0; // Variable para guardar temporalmente la opcion seleccionada.
 
-    int respInt = 0;
+    int respInt = 0; // Variable para guardar respuestas de tipo INT.
 
-    string respStr;
+    string respStr; // Variable para guardar respuestas de tipo STRING.
 
-    string mensaje = "";
+    string mensaje = ""; // Variable para guardar mensajes para el usuario, sobre el estado de su respuesta.
 
-    do{
+    do{ // Comienza la ejecucion del juego.
 
-        do{
+        do{ // Muestro el menú principal.
             cout << endl;
             cout << endl;
             cout << endl;
@@ -68,7 +68,7 @@ int main(){
 
         }while(opcion != 99 && (opcion < 1 || opcion > 4));
 
-        switch(opcion){
+        switch(opcion){ // Verifico si alguna opción corresponde con alguna categoria existente.
             case 1:
                 cout << "Categoria Selesccionada: Matematica." << endl;
                 cout << endl;
@@ -123,10 +123,9 @@ int main(){
         }
 
 
-    }while(opcion != 99);
+    }while(opcion != 99); // Verifico que si la opcion seleccionada fue terminar el juego.
 
     cout << "Su puntaje final es de: " << puntaje << " Puntos" << endl;
 
-    return 0;
-    //preguntar(opcion);
+    return 0; // Termino la ejecucion del juego.
 }
