@@ -5,6 +5,8 @@ TP N° 3 de AED - UTN FRBA - Alumno: Ferreyra, Maximiliano Gastón - Curso: K109
 
 ![Diagrama Nassi-Shneiderman](DiagramaNassi-Shneiderman.png)
 
+___
+
 ####***Ventajas y desventajas de los tipos de diagramas***
 
 ######Diagramas Nassi-Shneiderman
